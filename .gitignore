@@ -41,8 +41,13 @@ build/Release
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # TypeScript v1 declaration files
 typings/
+=======
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+>>>>>>> nodejs cli for the nutrition search api by vay
 
 # TypeScript cache
 *.tsbuildinfo
@@ -74,6 +79,10 @@ typings/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+<<<<<<< HEAD
+=======
+.parcel-cache
+>>>>>>> nodejs cli for the nutrition search api by vay
 
 # Next.js build output
 .next
@@ -84,7 +93,11 @@ dist
 
 # Gatsby files
 .cache/
+<<<<<<< HEAD
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
+=======
+# Comment in the public line in if your project uses Gatsby and not Next.js
+>>>>>>> nodejs cli for the nutrition search api by vay
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -102,3 +115,16 @@ dist
 
 # TernJS port file
 .tern-port
+<<<<<<< HEAD
+=======
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+>>>>>>> nodejs cli for the nutrition search api by vay
