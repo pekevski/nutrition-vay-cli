@@ -2,9 +2,14 @@
 A NodeJS cli for the vay nutrition search api.
 
 # Installation
+
+Install the npm package
+
 ```javascript
 npm i nutrition-vay-cli
 ```
+
+Create a vay account [here](https://app.vay.studio/?new=1) (its free) and get your API KEY.
 
 # How To Use
 ```
@@ -16,7 +21,6 @@ $nutrition search --name "snickers"
 
 //OR
 $nutrition search --name "snickers" --key 'YOUR API KEY'
-
 
 
 // use the help command for other help commands
